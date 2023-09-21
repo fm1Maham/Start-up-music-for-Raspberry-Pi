@@ -1,5 +1,6 @@
 # Music starts after sudo reboot, but not at initial power up.
-# When audio file plays. It does not play correctly 
+# When audio file plays. It plays at 2x speed.
+# I tried using pydub to correct the speed, but I think it conflicts with my audio card because nothing plays when I add the code. This mp3 file does play at normal speed when selected with a regular audio player
 
 Start-up-music-for-Raspberry-Pi
 #music plays when headless starts up.
